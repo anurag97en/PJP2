@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.maven.commands:BasicMaven >--------------------
+[INFO] Building BasicMaven 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ BasicMaven ---
+[INFO] Deleting E:\Maven\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ BasicMaven ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ BasicMaven ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to E:\Maven\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ BasicMaven ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ BasicMaven ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to E:\Maven\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ BasicMaven ---
+[INFO] Surefire report directory: E:\Maven\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running AppTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ BasicMaven ---
+[INFO] Building jar: E:\Maven\target\BasicMaven-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ BasicMaven ---
+[INFO] Installing E:\Maven\target\BasicMaven-0.0.1-SNAPSHOT.jar to C:\Users\lenovo\.m2\repository\com\maven\commands\BasicMaven\0.0.1-SNAPSHOT\BasicMaven-0.0.1-SNAPSHOT.jar
+[INFO] Installing E:\Maven\pom.xml to C:\Users\lenovo\.m2\repository\com\maven\commands\BasicMaven\0.0.1-SNAPSHOT\BasicMaven-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.145 s
+[INFO] Finished at: 2020-08-22T11:58:19+05:30
+[INFO] ------------------------------------------------------------------------
